@@ -11,7 +11,7 @@ class Tikitool < Formula
       sha256 "4beeb6c33bd16b505ebe938bb8ffe211e2e76ef2867eccb72afee9907eae8366"
 
       def install
-        bin.install "tikitool_darwin_arm64"
+        bin.install "tikitool"
         # system "mv", "tikitool_darwin_arm64", "/usr/local/bin/tikitool"
         # system "chmod", "+x", "/usr/local/bin/tikitool"
       end

@@ -12,6 +12,7 @@ class Tikitool < Formula
 
       def install
         bin.install "tikitool"
+        mv bin/tikitool_darwin_arm64 bin/tikitool
         # system "mv", "tikitool_darwin_arm64", "/usr/local/bin/tikitool"
         # system "chmod", "+x", "/usr/local/bin/tikitool"
       end

@@ -12,8 +12,8 @@ class Tikitool < Formula
 
       def install
         bin.install "tikitool_darwin_arm64"
-        system "mv", "tikitool_darwin_arm64", "/usr/local/bin/tikitool"
-        system "chmod", "+x", "/usr/local/bin/tikitool"
+        # system "mv", "tikitool_darwin_arm64", "/usr/local/bin/tikitool"
+        # system "chmod", "+x", "/usr/local/bin/tikitool"
       end
     end
     if Hardware::CPU.intel?

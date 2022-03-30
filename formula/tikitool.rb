@@ -12,8 +12,6 @@ class Tikitool < Formula
 
       def install
         bin.install "tikitool_darwin_arm64" => "tikitool"
-        # system "mv", "tikitool_darwin_arm64", "/usr/local/bin/tikitool"
-        # system "chmod", "+x", "/usr/local/bin/tikitool"
       end
     end
     if Hardware::CPU.intel?
@@ -21,7 +19,7 @@ class Tikitool < Formula
       sha256 "8fe3e534dc10bb2a73815ba8aa16a3e27f96fbf8d4f1a3b8b419eee0fa9fb39f"
 
       def install
-        bin.install "tikitool"
+        bin.install "tikitool_darwin_amd64" => "tikitool"
       end
     end
   end
@@ -32,7 +30,7 @@ class Tikitool < Formula
       sha256 "63e4b6ff9529eee9fea62a1124be85f385c208a68c6edcb5dc8e07cac4c9b05c"
 
       def install
-        bin.install "tikitool"
+        bin.install "tikitool_linux_amd64" => "tikitool"
       end
     end
   end

@@ -36,6 +36,5 @@ class Tikitool < Formula
         end
       end
     end
-  end
 
 end

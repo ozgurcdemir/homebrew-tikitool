@@ -8,7 +8,7 @@ class Tikitool < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ozgurcdemir/homebrew-tikitool/releases/download/1.0.12/tikitool_darwin_arm64"
-      sha256 "1b78f99657f02779a3adcdc51b5f170104fad3cb0aa08e763742d97610449cce"
+      sha256 "4beeb6c33bd16b505ebe938bb8ffe211e2e76ef2867eccb72afee9907eae8366"
 
       def install
         bin.install "tikitool_darwin_arm64"

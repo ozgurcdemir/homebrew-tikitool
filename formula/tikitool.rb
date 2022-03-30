@@ -1,5 +1,4 @@
 require "formula"
-require_relative "lib/private_strategy"
 
 class Tikitool < Formula
     desc "Tikitool"

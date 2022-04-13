@@ -3,7 +3,7 @@ require "formula"
 class Tikitool < Formula
   desc "Tikitool"
   homepage "https://github.com/ozgurcdemir/homebrew-tikitool"
-  version "1.0.12"
+  version "1.1.0"
 
   on_macos do
     if Hardware::CPU.arm?

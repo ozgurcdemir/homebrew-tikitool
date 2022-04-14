@@ -1,6 +1,6 @@
 require "formula"
 
-class Tikitool < Formula"
+class Tikitool < Formula
   desc "Tikitool"
   homepage "https://github.com/ozgurcdemir/homebrew-tikitool"
   version "v1.1.9"

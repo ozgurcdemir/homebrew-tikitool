@@ -7,7 +7,7 @@ class Tikitool < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ozgurcdemir/homebrew-tikitool/releases/download/v1.1.27/tikitool_darwin_arm64"
-      sha256 "99e36cdbd1825a76af08ccfb869da238052d88ec823e845e505681e2f1539f78"
+      sha256 "3b2b4f636781b87e5202d5245a62f1f5a723da0b21c003223e6f30ca4a5f4df2"
     
       def install
         bin.install "tikitool_darwin_arm64" => "tikitool"
@@ -15,7 +15,7 @@ class Tikitool < Formula
     end
      if Hardware::CPU.intel?
        url "https://github.com/ozgurcdemir/homebrew-tikitool/releases/download/v1.1.27/tikitool_darwin_amd64"
-       sha256 "d83c8d11614d4dade55220e42dd77912de5671790acec86201e85539f8a9249b"
+       sha256 "b3c049a78ff00b57d7cc7e5aada7b2df0599971e4ac4d82bce934ae4432f5b16"
  
       def install
          bin.install "tikitool_darwin_amd64" => "tikitool"
@@ -26,7 +26,7 @@ class Tikitool < Formula
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/ozgurcdemir/homebrew-tikitool/releases/download/v1.1.27/tikitool_linux_amd64"
-      sha256 "8ac8f6575a5132b49ddbd9d3b048d0bd1fd59a27859414b48c5fb5d686b7c699"
+      sha256 "742ac0d057042b13656c217d098a57802845d59647dfbab240bf2a903f22a72d"
  
       def install
         bin.install "tikitool_linux_amd64" => "tikitool"

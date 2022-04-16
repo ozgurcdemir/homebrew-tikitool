@@ -3,19 +3,19 @@ require "formula"
 class Tikitool < Formula
   desc "Tikitool"
   homepage "https://github.com/ozgurcdemir/homebrew-tikitool"
-  version "v1.1.27"
+  version "v1.1.28"
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ozgurcdemir/homebrew-tikitool/releases/download/v1.1.27/tikitool_darwin_arm64"
-      sha256 "3b2b4f636781b87e5202d5245a62f1f5a723da0b21c003223e6f30ca4a5f4df2"
+      url "https://github.com/ozgurcdemir/homebrew-tikitool/releases/download/v1.1.28/tikitool_darwin_arm64"
+      sha256 "5431100e6713a1da16bab2b99e800869e0ff26c1ce6a193a3dc26d2e470bae80"
     
       def install
         bin.install "tikitool_darwin_arm64" => "tikitool"
       end
     end
      if Hardware::CPU.intel?
-       url "https://github.com/ozgurcdemir/homebrew-tikitool/releases/download/v1.1.27/tikitool_darwin_amd64"
-       sha256 "b3c049a78ff00b57d7cc7e5aada7b2df0599971e4ac4d82bce934ae4432f5b16"
+       url "https://github.com/ozgurcdemir/homebrew-tikitool/releases/download/v1.1.28/tikitool_darwin_amd64"
+       sha256 "9d213792b105c58b52f1fbb56fdfa701a9ffd13d1cf0b25dde24be46fa0d447e"
  
       def install
          bin.install "tikitool_darwin_amd64" => "tikitool"
@@ -25,8 +25,8 @@ class Tikitool < Formula
  
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/ozgurcdemir/homebrew-tikitool/releases/download/v1.1.27/tikitool_linux_amd64"
-      sha256 "742ac0d057042b13656c217d098a57802845d59647dfbab240bf2a903f22a72d"
+      url "https://github.com/ozgurcdemir/homebrew-tikitool/releases/download/v1.1.28/tikitool_linux_amd64"
+      sha256 "dd92bc7fa8780c001b2890e8b79b91c530d9e919fc1c2bac9923f80d963ed2c5"
  
       def install
         bin.install "tikitool_linux_amd64" => "tikitool"
